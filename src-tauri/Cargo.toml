@@ -1,6 +1,6 @@
 [package]
 name = "GH8ST"
-version = "0.3.2"
+version = "0.3.3"
 description = "Windows text editor & IDE"
 authors = ["DNYFZR"]
 edition = "2024"
