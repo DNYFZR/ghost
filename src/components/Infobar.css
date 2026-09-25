@@ -1,0 +1,21 @@
+/* Main UI Bottom Bar */
+.app-bottom-bar {
+    z-index: 999;
+    position: fixed;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--sub-background-color);
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    border: none;
+}
+
+.app-bottom-bar-icon {
+    width: 18px;
+    padding-right: 10px;
+    margin: auto 0;
+}

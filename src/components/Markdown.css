@@ -1,0 +1,46 @@
+/* @import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css'; */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark.min.css';
+
+.app-active-filename {
+    width: calc(90vw - 60px);
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: var(--sub-background-color);
+    color: white;
+    height: 24px;
+    margin: 0 auto;
+    border-radius: 16px 16px 0 0;
+}
+
+.markdown-ui {
+  overflow-y: auto;
+  width: calc(90vw - 60px);
+  height: 88vh;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.markdown-ui::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: var(--sub-background-color);
+}
+.markdown-ui::-webkit-scrollbar-thumb {
+    background-color: var(--sub-background-color);
+    border-radius: 10px;
+}
+.markdown-ui::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+
+/*.markdown-ui code {
+  background-color: var(--header-bg);
+  color: var(--main-text-color);
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  font-family:monospace;
+  font-size: 10px;
+  font-weight: 100;
+}*/
