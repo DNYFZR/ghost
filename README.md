@@ -17,10 +17,6 @@ Extremely fast & safe Windows OS text editor app
 
 ### Build
 
-In Progress : publish Windows builds to GitHub, allowing the MSI file to be accessed, and the app to be installed without having to install any development tooling on a machine.
-
-### From Source
-
 If you want to build the app locally from this repo, your system will need to have : 
 
 - Rust (see [Cargo.toml](/src-tauri/Cargo.toml)) 
