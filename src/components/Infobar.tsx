@@ -1,6 +1,5 @@
 import "./Infobar.css";
 import React from "react";
-import noteIcon from "/icons/notes-128.png";
 
 interface InfobarProps {
   cwd: string;
@@ -13,7 +12,6 @@ const Inforbar: React.FC<InfobarProps> = ({ cwd, fontSize, contentType }) => {
     <div className="app-bottom-bar">
       {cwd.length > 0 ? (
         <div className="row">
-          {/*<img src={noteIcon} className="app-bottom-bar-icon" />*/}
           <pre className="highlight-text">📁 {cwd.replace(/\\/g, "/")}</pre>
         </div>
       ) : (
