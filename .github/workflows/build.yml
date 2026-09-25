@@ -34,7 +34,7 @@ jobs:
         # Set environment variable for subsequent steps
         echo "APP_VERSION=$version" >> $env:GITHUB_ENV
 
-    - name: Upload packages
+    - name: Upload app
       uses: actions/upload-artifact@v7
       with:
         name: app-v${{ env.APP_VERSION}}
